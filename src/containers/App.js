@@ -5,8 +5,7 @@ import thunk from 'redux-thunk';
 import * as reducers from '../reducers';
 
 // Routes
-import {Router, browserHistory} from 'react-router';
-import Routes from './Routes';
+import SearchApp from './SearchApp';
 
 
 const reducer = combineReducers(reducers);
@@ -17,9 +16,7 @@ export default class App extends Component {
     render() {
         return (
             <Provider store={store}>
-                <Router history={browserHistory}>
-                    {Routes}
-                </Router>
+               <SearchApp/>
             </Provider>
         );
     }
