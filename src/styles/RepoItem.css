@@ -1,0 +1,23 @@
+.repoContainer {
+    color: #7f7f7f;
+    margin-top: 30px;
+}
+
+.repoKey {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+    font-weight: bold;
+    line-height: 21px;
+}
+
+.repoValue {
+    padding-left: 20px;
+    display: inline-block;
+    width: 80%;
+}
+
+.repoLink {
+    text-decoration: none;
+    color: #4078c0;
+}
